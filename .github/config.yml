@@ -1,0 +1,6 @@
+# .github/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a question or give feedback
+    url: https://github.com/helciopenha/green-valley-vscode/discussions
+    about: If you have an idea or need help, feel free to start a discussion!

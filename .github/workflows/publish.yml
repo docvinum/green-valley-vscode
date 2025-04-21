@@ -18,7 +18,7 @@ jobs:
           node-version: 20
 
       - name: 📦 Install dependencies
-        run: npm install -g @vscode/vsce
+        run: npm install -g @vscode/vsce@3.3.2
 
       - name: 🔐 Publish Extension
         env:

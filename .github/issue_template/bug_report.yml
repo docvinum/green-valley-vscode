@@ -1,0 +1,49 @@
+name: 🐛 Bug Report
+description: Report an issue or unexpected behavior with the theme
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please provide as much detail as possible so we can fix it quickly.
+
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code Version
+      placeholder: "e.g. 1.85.1"
+    validations:
+      required: true
+
+  - type: input
+    id: theme-variant
+    attributes:
+      label: Which Green Valley variant were you using?
+      placeholder: "e.g. Green Valley Neo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: What happened?
+      placeholder: "Describe the issue or what went wrong."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide a clear sequence to help us reproduce the bug.
+      placeholder: |
+        1. Open a `.ts` file
+        2. Highlight code using `Ctrl+Shift+L`
+        3. Wrong background color appears
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Add an image if it helps clarify the issue.

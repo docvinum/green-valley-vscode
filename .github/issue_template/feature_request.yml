@@ -1,0 +1,39 @@
+name: ✨ Theme Variation Request
+description: Suggest a new Green Valley theme variation
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love hearing your ideas! 🌿 Suggest a new variation for Green Valley below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Suggested Theme Name
+      placeholder: "e.g. Green Valley Aurora"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's the vibe of this variation?
+      placeholder: "A warm and calm theme inspired by sunrise in the mountains."
+
+  - type: textarea
+    id: color-ideas
+    attributes:
+      label: Suggested color palette (hex values)
+      placeholder: |
+        - #A1E3D8
+        - #6F73D2
+        - #FFE7BF
+        - etc.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Add any extra info or ideas here!
