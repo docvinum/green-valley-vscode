@@ -1,0 +1,10 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+node_modules
+.yarnrc
+yarn.lock
+*.vsix
+.env
+installation.md

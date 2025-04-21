@@ -1,0 +1,78 @@
+{
+  "name": "green-valley",
+  "displayName": "Green Valley Theme",
+  "description": "A beautiful, modern, and vibrant green-based theme with multiple variations created by Helcio Penha.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "helciopenha",
+  "icon": "images/icon.png",
+  "contributors": [
+    "Helcio Penha"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helciopenha/green-valley-vscode.git"
+  },
+  "homepage": "https://github.com/helciopenha/green-valley-vscode#readme",
+  "bugs": {
+    "url": "https://github.com/helciopenha/green-valley-vscode/issues"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "green",
+    "valley",
+    "modern",
+    "clean"
+  ],
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "01 Green Valley (Midnight)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-01-midnight.json"
+      },
+      {
+        "label": "02 Green Valley (Forest)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-02-forest.json"
+      },
+      {
+        "label": "03 Green Valley (Matrix)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-03-matrix.json"
+      },
+      {
+        "label": "04 Green Valley (Neo)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-04-neo.json"
+      },
+      {
+        "label": "01 Green Valley (Mint)",
+        "uiTheme": "vs",
+        "path": "./themes/light-01-mint.json"
+      },
+      {
+        "label": "02 Green Valley (Breeze)",
+        "uiTheme": "vs",
+        "path": "./themes/light-02-breeze.json"
+      },
+      {
+        "label": "03 Green Valley (Zen)",
+        "uiTheme": "vs",
+        "path": "./themes/light-03-zen.json"
+      }
+    ]
+  }
+}
