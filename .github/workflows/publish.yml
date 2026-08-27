@@ -1,9 +1,7 @@
 name: 🚀 Publish VSCode Theme
 
 on:
-  push:
-    tags:
-      - 'v*.*.*' # Active only push tags (vesions)
+  workflow_dispatch: {} # Manual trigger only — disabled automatic publish on tag push
 
 jobs:
   publish:
