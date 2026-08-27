@@ -1,5 +1,6 @@
 .vscode/**
 .vscode-test/**
+.github/**
 .gitignore
 vsc-extension-quickstart.md
 node_modules
@@ -8,3 +9,4 @@ yarn.lock
 *.vsix
 .env
 installation.md
+images/screenshots/**
